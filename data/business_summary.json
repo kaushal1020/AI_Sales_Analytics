@@ -1,0 +1,17 @@
+{
+    "total_orders": 5000,
+    "total_units": 20103,
+    "gross_revenue": 296176220.0,
+    "net_revenue": 267607482.5,
+    "total_cost": 229533135.0,
+    "net_profit": 38074347.5,
+    "net_profit_margin": 14.227684197881127,
+    "average_net_order_value": 53521.4965,
+    "best_product": "Laptop",
+    "best_product_revenue": 111683693.0,
+    "best_product_profit": 10994103.0,
+    "best_category": "Electronics",
+    "best_region": "North",
+    "best_salesperson": "Priya",
+    "best_customer": "Rohan Saxena"
+}

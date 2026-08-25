@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+seaborn
+openpyxl
+mysql-connector-python
+google-genai
+jupyter

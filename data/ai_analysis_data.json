@@ -1,0 +1,466 @@
+{
+    "business_summary": {
+        "total_orders": 5000,
+        "total_units": 20103,
+        "gross_revenue": 296176220.0,
+        "net_revenue": 267607482.5,
+        "total_cost": 229533135.0,
+        "net_profit": 38074347.5,
+        "net_profit_margin": 14.227684197881127,
+        "average_net_order_value": 53521.4965,
+        "best_product": "Laptop",
+        "best_product_revenue": 111683693.0,
+        "best_product_profit": 10994103.0,
+        "best_category": "Electronics",
+        "best_region": "North",
+        "best_salesperson": "Priya",
+        "best_customer": "Rohan Saxena"
+    },
+    "top_products": [
+        {
+            "Product": "Laptop",
+            "Orders": 584,
+            "Units_Sold": 2428.0,
+            "Gross_Revenue": 123265350.0,
+            "Net_Revenue": 111683693.0,
+            "Profit": 10994103.0,
+            "Profit_Margin": 9.84
+        },
+        {
+            "Product": "Smartphone",
+            "Orders": 476,
+            "Units_Sold": 1914.0,
+            "Gross_Revenue": 53619000.0,
+            "Net_Revenue": 48437800.0,
+            "Profit": 6329800.0,
+            "Profit_Margin": 13.07
+        },
+        {
+            "Product": "Monitor",
+            "Orders": 493,
+            "Units_Sold": 1970.0,
+            "Gross_Revenue": 35460000.0,
+            "Net_Revenue": 31947300.0,
+            "Profit": 4367300.0,
+            "Profit_Margin": 13.67
+        },
+        {
+            "Product": "Printer",
+            "Orders": 461,
+            "Units_Sold": 1886.0,
+            "Gross_Revenue": 30371000.0,
+            "Net_Revenue": 27379050.0,
+            "Profit": 3804050.0,
+            "Profit_Margin": 13.89
+        },
+        {
+            "Product": "Office Chair",
+            "Orders": 517,
+            "Units_Sold": 2029.0,
+            "Gross_Revenue": 24477000.0,
+            "Net_Revenue": 22022100.0,
+            "Profit": 4775600.0,
+            "Profit_Margin": 21.69
+        }
+    ],
+    "categories": [
+        {
+            "Category": "Electronics",
+            "Orders": 3041,
+            "Units_Sold": 12243.0,
+            "Gross_Revenue": 253770390.0,
+            "Net_Revenue": 229434715.5,
+            "Profit": 28755260.5,
+            "Profit_Margin": 12.53
+        },
+        {
+            "Category": "Furniture",
+            "Orders": 976,
+            "Units_Sold": 3838.0,
+            "Gross_Revenue": 40734000.0,
+            "Net_Revenue": 36716250.0,
+            "Profit": 8272350.0,
+            "Profit_Margin": 22.53
+        },
+        {
+            "Category": "Stationery",
+            "Orders": 983,
+            "Units_Sold": 4022.0,
+            "Gross_Revenue": 1671830.0,
+            "Net_Revenue": 1456517.0,
+            "Profit": 1046737.0,
+            "Profit_Margin": 71.87
+        }
+    ],
+    "regions": [
+        {
+            "Region": "North",
+            "Orders": 1658,
+            "Units_Sold": 6739.0,
+            "Gross_Revenue": 98173450.0,
+            "Net_Revenue": 88641741.5,
+            "Profit": 12658576.5,
+            "Profit_Margin": 14.28
+        },
+        {
+            "Region": "South",
+            "Orders": 1288,
+            "Units_Sold": 5115.0,
+            "Gross_Revenue": 75894180.0,
+            "Net_Revenue": 69072935.0,
+            "Profit": 10255010.0,
+            "Profit_Margin": 14.85
+        },
+        {
+            "Region": "West",
+            "Orders": 1204,
+            "Units_Sold": 4827.0,
+            "Gross_Revenue": 71716250.0,
+            "Net_Revenue": 64347450.0,
+            "Profit": 8761665.0,
+            "Profit_Margin": 13.62
+        },
+        {
+            "Region": "East",
+            "Orders": 850,
+            "Units_Sold": 3422.0,
+            "Gross_Revenue": 50392340.0,
+            "Net_Revenue": 45545356.0,
+            "Profit": 6399096.0,
+            "Profit_Margin": 14.05
+        }
+    ],
+    "top_customers": [
+        {
+            "Customer_ID": "C0373",
+            "Customer_Name": "Rohan Saxena",
+            "Orders": 9,
+            "Units_Sold": 39.0,
+            "Net_Revenue": 1153065.0,
+            "Profit": 162960.0,
+            "Profit_Margin": 14.13
+        },
+        {
+            "Customer_ID": "C0329",
+            "Customer_Name": "Nisha Kumar",
+            "Orders": 8,
+            "Units_Sold": 38.0,
+            "Net_Revenue": 1086550.0,
+            "Profit": 161550.0,
+            "Profit_Margin": 14.87
+        },
+        {
+            "Customer_ID": "C0695",
+            "Customer_Name": "Manish Tiwari",
+            "Orders": 8,
+            "Units_Sold": 35.0,
+            "Net_Revenue": 1061630.0,
+            "Profit": 90530.0,
+            "Profit_Margin": 8.53
+        },
+        {
+            "Customer_ID": "C0508",
+            "Customer_Name": "Anjali Verma",
+            "Orders": 8,
+            "Units_Sold": 39.0,
+            "Net_Revenue": 1038375.0,
+            "Profit": 139575.0,
+            "Profit_Margin": 13.44
+        },
+        {
+            "Customer_ID": "C0301",
+            "Customer_Name": "Arjun Yadav",
+            "Orders": 10,
+            "Units_Sold": 49.0,
+            "Net_Revenue": 983840.0,
+            "Profit": 115420.0,
+            "Profit_Margin": 11.73
+        },
+        {
+            "Customer_ID": "C0332",
+            "Customer_Name": "Nisha Kumar",
+            "Orders": 10,
+            "Units_Sold": 36.0,
+            "Net_Revenue": 955467.0,
+            "Profit": 54172.0,
+            "Profit_Margin": 5.67
+        },
+        {
+            "Customer_ID": "C0025",
+            "Customer_Name": "Ravi Saxena",
+            "Orders": 8,
+            "Units_Sold": 36.0,
+            "Net_Revenue": 891954.0,
+            "Profit": -2436.0,
+            "Profit_Margin": -0.27
+        },
+        {
+            "Customer_ID": "C0748",
+            "Customer_Name": "Varun Mehta",
+            "Orders": 10,
+            "Units_Sold": 51.0,
+            "Net_Revenue": 881710.0,
+            "Profit": 107810.0,
+            "Profit_Margin": 12.23
+        },
+        {
+            "Customer_ID": "C0150",
+            "Customer_Name": "Meera Yadav",
+            "Orders": 10,
+            "Units_Sold": 44.0,
+            "Net_Revenue": 858237.5,
+            "Profit": 71017.5,
+            "Profit_Margin": 8.27
+        },
+        {
+            "Customer_ID": "C0549",
+            "Customer_Name": "Karan Mehta",
+            "Orders": 12,
+            "Units_Sold": 48.0,
+            "Net_Revenue": 845669.0,
+            "Profit": 86674.0,
+            "Profit_Margin": 10.25
+        }
+    ],
+    "salespeople": [
+        {
+            "Salesperson": "Priya",
+            "Orders": 865,
+            "Units_Sold": 3441.0,
+            "Net_Revenue": 49114230.5,
+            "Profit": 6859290.5,
+            "Profit_Margin": 13.97
+        },
+        {
+            "Salesperson": "Sneha",
+            "Orders": 865,
+            "Units_Sold": 3480.0,
+            "Net_Revenue": 48901393.5,
+            "Profit": 6996508.5,
+            "Profit_Margin": 14.31
+        },
+        {
+            "Salesperson": "Ravi",
+            "Orders": 867,
+            "Units_Sold": 3441.0,
+            "Net_Revenue": 48258785.0,
+            "Profit": 6342710.0,
+            "Profit_Margin": 13.14
+        },
+        {
+            "Salesperson": "Amit",
+            "Orders": 822,
+            "Units_Sold": 3267.0,
+            "Net_Revenue": 41880763.5,
+            "Profit": 6281933.5,
+            "Profit_Margin": 15.0
+        },
+        {
+            "Salesperson": "Neha",
+            "Orders": 787,
+            "Units_Sold": 3168.0,
+            "Net_Revenue": 40751767.5,
+            "Profit": 5752162.5,
+            "Profit_Margin": 14.12
+        },
+        {
+            "Salesperson": "Karan",
+            "Orders": 794,
+            "Units_Sold": 3306.0,
+            "Net_Revenue": 38700542.5,
+            "Profit": 5841742.5,
+            "Profit_Margin": 15.09
+        }
+    ],
+    "profitability": [
+        {
+            "Product": "Laptop",
+            "Net_Revenue": 111683693.0,
+            "Total_Cost": 100689590.0,
+            "Profit": 10994103.0,
+            "Profit_Margin": 9.84
+        },
+        {
+            "Product": "Smartphone",
+            "Net_Revenue": 48437800.0,
+            "Total_Cost": 42108000.0,
+            "Profit": 6329800.0,
+            "Profit_Margin": 13.07
+        },
+        {
+            "Product": "Office Chair",
+            "Net_Revenue": 22022100.0,
+            "Total_Cost": 17246500.0,
+            "Profit": 4775600.0,
+            "Profit_Margin": 21.69
+        },
+        {
+            "Product": "Monitor",
+            "Net_Revenue": 31947300.0,
+            "Total_Cost": 27580000.0,
+            "Profit": 4367300.0,
+            "Profit_Margin": 13.67
+        },
+        {
+            "Product": "Printer",
+            "Net_Revenue": 27379050.0,
+            "Total_Cost": 23575000.0,
+            "Profit": 3804050.0,
+            "Profit_Margin": 13.89
+        },
+        {
+            "Product": "Desk",
+            "Net_Revenue": 14779350.0,
+            "Total_Cost": 11265400.0,
+            "Profit": 3513950.0,
+            "Profit_Margin": 23.78
+        },
+        {
+            "Product": "Headphones",
+            "Net_Revenue": 6412875.0,
+            "Total_Cost": 4479200.0,
+            "Profit": 1933675.0,
+            "Profit_Margin": 30.15
+        },
+        {
+            "Product": "Keyboard",
+            "Net_Revenue": 3486290.0,
+            "Total_Cost": 2178000.0,
+            "Profit": 1308290.0,
+            "Profit_Margin": 37.53
+        },
+        {
+            "Product": "Notebook",
+            "Net_Revenue": 670112.0,
+            "Total_Cost": 133965.0,
+            "Profit": 536147.0,
+            "Profit_Margin": 80.01
+        },
+        {
+            "Product": "Pen Set",
+            "Net_Revenue": 788912.5,
+            "Total_Cost": 277480.0,
+            "Profit": 511432.5,
+            "Profit_Margin": 64.83
+        }
+    ],
+    "discount_analysis": [
+        {
+            "Discount": 0.0,
+            "Orders": 1019,
+            "Net_Revenue": 64928700.0,
+            "Profit": 14434275.0,
+            "Profit_Margin": 22.23
+        },
+        {
+            "Discount": 5.0,
+            "Orders": 1012,
+            "Net_Revenue": 57897702.5,
+            "Profit": 10382457.5,
+            "Profit_Margin": 17.93
+        },
+        {
+            "Discount": 10.0,
+            "Orders": 1002,
+            "Net_Revenue": 50667642.0,
+            "Profit": 7441332.0,
+            "Profit_Margin": 14.69
+        },
+        {
+            "Discount": 15.0,
+            "Orders": 979,
+            "Net_Revenue": 49457862.0,
+            "Profit": 4274787.0,
+            "Profit_Margin": 8.64
+        },
+        {
+            "Discount": 20.0,
+            "Orders": 988,
+            "Net_Revenue": 44655576.0,
+            "Profit": 1541496.0,
+            "Profit_Margin": 3.45
+        }
+    ],
+    "monthly_trends": [
+        {
+            "Month": "2026-01",
+            "Orders": 636,
+            "Units_Sold": 2542.0,
+            "Net_Revenue": 30452069.0,
+            "Profit": 4436939.0,
+            "Profit_Margin": 14.57
+        },
+        {
+            "Month": "2026-02",
+            "Orders": 546,
+            "Units_Sold": 2196.0,
+            "Net_Revenue": 30706878.5,
+            "Profit": 4825958.5,
+            "Profit_Margin": 15.72
+        },
+        {
+            "Month": "2026-03",
+            "Orders": 668,
+            "Units_Sold": 2707.0,
+            "Net_Revenue": 35241453.5,
+            "Profit": 4731053.5,
+            "Profit_Margin": 13.42
+        },
+        {
+            "Month": "2026-04",
+            "Orders": 636,
+            "Units_Sold": 2588.0,
+            "Net_Revenue": 36999743.0,
+            "Profit": 5095673.0,
+            "Profit_Margin": 13.77
+        },
+        {
+            "Month": "2026-05",
+            "Orders": 662,
+            "Units_Sold": 2713.0,
+            "Net_Revenue": 33254810.0,
+            "Profit": 4685985.0,
+            "Profit_Margin": 14.09
+        },
+        {
+            "Month": "2026-06",
+            "Orders": 648,
+            "Units_Sold": 2536.0,
+            "Net_Revenue": 33251292.0,
+            "Profit": 5019262.0,
+            "Profit_Margin": 15.09
+        },
+        {
+            "Month": "2026-07",
+            "Orders": 614,
+            "Units_Sold": 2461.0,
+            "Net_Revenue": 34954421.0,
+            "Profit": 4383876.0,
+            "Profit_Margin": 12.54
+        },
+        {
+            "Month": "2026-08",
+            "Orders": 584,
+            "Units_Sold": 2340.0,
+            "Net_Revenue": 32619609.5,
+            "Profit": 4865049.5,
+            "Profit_Margin": 14.91
+        },
+        {
+            "Month": "2026-09",
+            "Orders": 1,
+            "Units_Sold": 4.0,
+            "Net_Revenue": 432.0,
+            "Profit": 172.0,
+            "Profit_Margin": 39.81
+        },
+        {
+            "Month": "2026-12",
+            "Orders": 5,
+            "Units_Sold": 16.0,
+            "Net_Revenue": 126774.0,
+            "Profit": 30379.0,
+            "Profit_Margin": 23.96
+        }
+    ]
+}
