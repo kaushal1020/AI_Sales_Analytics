@@ -141,51 +141,6 @@ The project follows this analytical pipeline:
                  └───────────────────┘
 ```
 
----
-
-# 📁 Project Structure
-
-```text
-AI_Sales_Analytics/
-│
-├── data/
-│   ├── dirty_sales_data.csv
-│   ├── customer_master_final.csv
-│   ├── clean_sales_data.csv
-│   ├── sales_data.csv
-│   ├── sales_data.xlsx
-│   ├── business_summary.json
-│   └── ai_analysis_data.json
-│
-├── excel/
-│   └── dirty_sales_data.xlsx
-│
-├── mysql/
-│   └── sales_analysis.sql
-│
-├── notebooks/
-│   ├── 01_data_profiling_cleaning.ipynb
-│   ├── 02_python_sales_analysis.ipynb
-│   └── 03_ai_sales_analyst.ipynb
-│
-├── charts/
-│   ├── category_revenue.png
-│   ├── discount_profit.png
-│   ├── monthly_net_revenue.png
-│   ├── monthly_profit.png
-│   ├── payment_mode_revenue.png
-│   ├── regional_revenue.png
-│   ├── salesperson_revenue.png
-│   ├── top_10_customers.png
-│   └── top_10_products_revenue.png
-│
-├── python/
-│   └── reusable scripts
-│
-├── .gitignore
-├── README.md
-└── requirements.txt
-```
 
 ---
 
