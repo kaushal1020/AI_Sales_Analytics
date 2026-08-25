@@ -852,27 +852,7 @@ High-value customers such as Rohan Saxena represent potential opportunities for:
 
 ---
 
-# 🔐 API Security
 
-The Gemini API key is **not intended to be stored directly inside the source code**.
-
-Environment variables are used to protect API credentials.
-
-Sensitive files such as:
-
-```text
-.env
-```
-
-are excluded using:
-
-```text
-.gitignore
-```
-
-This prevents API credentials from accidentally being committed to GitHub.
-
----
 
 # 📓 Jupyter Notebooks
 
@@ -962,79 +942,6 @@ This notebook contains:
 
 ---
 
-# 📦 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/kaushal1020/AI_Sales_Analytics.git
-```
-
-Move into the project directory:
-
-```bash
-cd AI_Sales_Analytics
-```
-
-Create a virtual environment:
-
-```bash
-python -m venv venv
-```
-
-Activate the environment on Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Launch Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
----
-
-# 🔑 Gemini API Configuration
-
-Create an environment file:
-
-```text
-.env
-```
-
-Add:
-
-```text
-GEMINI_API_KEY=your_api_key_here
-```
-
-The `.env` file should **never be committed to GitHub**.
-
-The repository already contains a `.gitignore` configuration to prevent sensitive environment files from being tracked.
-
----
-
-# 🗄️ MySQL Setup
-
-Create a MySQL database and import the cleaned sales data.
-
-The SQL analysis file is available at:
-
-```text
-mysql/sales_analysis.sql
-```
-
-The SQL notebook/workflow can then be used to reproduce the database analysis.
-
----
 
 # 📊 Example Business Questions
 
@@ -1224,8 +1131,7 @@ This project demonstrates practical experience with:
 - Git
 - GitHub
 - Project organization
-- Documentation
-- Environment-variable security
+
 
 ---
 
@@ -1260,10 +1166,3 @@ Electronics & Communication Engineering
 
 Madan Mohan Malaviya University of Technology
 
----
-
-## 📂 Repository
-
-GitHub:
-
-https://github.com/kaushal1020/AI_Sales_Analytics
