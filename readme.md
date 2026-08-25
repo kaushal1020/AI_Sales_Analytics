@@ -65,7 +65,7 @@ Business Insights
         ↓
 Gemini AI
         ↓
-AI Sales Analyst# 🤖 AI-Powered Sales Analytics
+AI Sales Analyst#
 
 An end-to-end sales analytics project that combines **Python, Pandas, NumPy, MySQL, Matplotlib, Seaborn, Excel, and Gemini AI** to transform a deliberately dirty sales dataset into actionable business insights.
 
