@@ -1,124 +1,68 @@
-# AI-Powered Sales Analytics
+# 🤖 AI-Powered Sales Analytics
 
-## Project Overview
+## 📌 Project Overview
 
-AI-Powered Sales Analytics is an end-to-end sales analytics project that combines Python, Pandas, NumPy, MySQL, Excel, data visualization, and the Gemini API to analyze sales data and generate AI-powered business insights.
+AI-Powered Sales Analytics is an end-to-end data analytics project designed to transform a deliberately dirty sales dataset into meaningful business insights using Python, MySQL, data visualization, and Generative AI.
 
-The project uses a deliberately dirty sales dataset containing missing values, duplicates, inconsistent text, incorrect data types, invalid values, and outliers.
+The project combines traditional data analytics with an AI Sales Analyst that can interpret calculated business metrics and answer natural-language business questions.
 
-The goal is to transform the raw sales data into a clean, analyzed, and AI-assisted business intelligence solution.
+---
 
-## Technologies Used
+## 🎯 Project Objective
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- MySQL
-- MS Excel
-- Gemini API
-- Jupyter Notebook
-- GitHub
+The main objectives of this project are to:
 
-## Project Workflow
+- Clean and validate real-world style sales data
+- Store and analyze sales data using MySQL
+- Calculate important sales and profitability KPIs
+- Analyze products, customers, regions, and salespeople
+- Identify business trends and performance patterns
+- Create meaningful visualizations
+- Use Generative AI to interpret analytical results
+- Build a portfolio-ready end-to-end analytics workflow
 
-Dirty Sales Data
-↓
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python | Data analysis and automation |
+| Pandas | Data cleaning and analysis |
+| NumPy | Numerical calculations |
+| Matplotlib | Data visualization |
+| Seaborn | Statistical visualization |
+| MySQL | Database and SQL analysis |
+| MS Excel | Dataset inspection and supporting analysis |
+| Gemini API | AI-powered business analysis |
+| Jupyter Notebook | Main analysis environment |
+| Git & GitHub | Version control and portfolio |
+
+---
+
+## 🔄 Project Workflow
+
+```text
+Dirty Sales Dataset
+        ↓
 Data Profiling
-↓
+        ↓
 Data Cleaning
-↓
+        ↓
 Clean Dataset
-↓
+        ↓
 MySQL Database
-↓
+        ↓
 SQL Analysis
-↓
+        ↓
 Python Analytics
-↓
-Data Visualization
-↓
+        ↓
+Pandas + NumPy
+        ↓
+Matplotlib + Seaborn
+        ↓
 Business Insights
-↓
-Gemini API
-↓
+        ↓
+Gemini AI
+        ↓
 AI Sales Analyst
-
-## Project Structure
-
-AI_Sales_Analytics/
-
-├── data/
-├── notebooks/
-├── sql/
-├── python/
-├── charts/
-├── README.md
-└── requirements.txt
-
-## Key Analysis
-
-The project analyzes:
-
-- Sales revenue
-- Profit
-- Profit margin
-- Product performance
-- Category performance
-- Regional performance
-- Customer performance
-- Salesperson performance
-- Discount impact
-- Monthly sales trends
-
-## AI Sales Analyst
-
-The project integrates the Gemini API with Python-based sales analysis.
-
-Python performs the numerical calculations and provides verified business data to the AI model.
-
-The AI then interprets the results and provides:
-
-- Business explanations
-- Risks
-- Opportunities
-- Recommendations
-
-The system runs locally using Jupyter Notebook and does not require a website or application.
-
-## Data Cleaning
-
-The original dataset contained approximately 5,030 records.
-
-After duplicate removal and data cleaning, the final dataset contains:
-
-- 5,000 rows
-- 15 columns
-- No missing values
-- No duplicate transactions
-- Valid customer references
-- Valid quantities
-- Valid discounts
-- Valid pricing relationships
-
-## Notebooks
-
-### 01_data_profiling_cleaning.ipynb
-
-Data profiling, quality investigation, and cleaning.
-
-### 02_python_sales_analysis.ipynb
-
-Sales KPIs, business analysis, and visualizations.
-
-### 03_ai_sales_analyst.ipynb
-
-Gemini API integration and AI-powered business analysis.
-
-## Future Improvements
-
-- More advanced natural-language question routing
-- Additional automated business diagnostics
-- More advanced AI recommendations
-- Reusable Python analysis modules
